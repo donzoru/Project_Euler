@@ -8,6 +8,7 @@ def calu(n):
 			n /= i
 		ans = ans*tem
 	return ans
+
 sum = int(0)
 for i in range ( 1 , 100000000 ):
 	sum += int(i)
