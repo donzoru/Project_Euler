@@ -10,7 +10,7 @@ def calu(n):
 	return ans
 sum = int(0)
 for i in range ( 1 , 1000000 ):
-	sum = sum + int(i)
+	sum += int(i)
 	if( calu(sum) >= 500) :
 		print(sum);
 		break;
