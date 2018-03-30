@@ -9,7 +9,7 @@ def calu(n):
 		ans = ans*tem
 	return ans
 sum = int(0)
-for i in range ( 1 , 1000000 ):
+for i in range ( 1 , 100000000 ):
 	sum += int(i)
 	if( calu(sum) >= 500) :
 		print(sum);
